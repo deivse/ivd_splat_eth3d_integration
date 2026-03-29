@@ -1,0 +1,15 @@
+[project]
+name = "eth3d-nerfbaselines-loader"
+version = "0.1.0"
+description = "ETH3D dataset nerfbaselines loader"
+readme = "README.md"
+authors = [{ name = "Ivan Desiatov", email = "desiaiva@fel.cvut.cz" }]
+requires-python = ">=3.9"
+
+dependencies = [
+    "nerfbaselines @ git+https://github.com/deivse/nerfbaselines.git",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

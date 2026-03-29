@@ -1,0 +1,8 @@
+py7zr
+numpy
+open3d
+pillow
+requests
+tyro
+tqdm
+nerfbaselines @ git+https://github.com/deivse/nerfbaselines.git
