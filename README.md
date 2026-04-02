@@ -2,7 +2,7 @@
 This repository provides ETH3D (MVS) dataset integration for the `ivd_splat` implementation for the paper 
 "The Role and Relationship of Initialization and Densification in 3D Gaussian Splatting" (https://arxiv.org/abs/2603.20714).
 It contains a script that downloads and prepares the dataset and provides a loader for NerfBaselines
-which allows to use it with our `ivd_splat` 3DGS implementation.
+which allows to use it with our [`ivd_splat` 3DGS implementation](https://github.com/deivse/ivd_splat).
 <!-- TODO: add main repo URL -->
 
 # Usage
