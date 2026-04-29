@@ -20,7 +20,10 @@ def load_eth3d_dataset(
         features=features,
         **kwargs,
     )
-    dataset["dense_points3D_path"] = Path(path) / "scan_merged.ply"
+
+    dataset["metadata"]["dense_points3D_path"] = str(
+        Path(path).absolute() / "scan_merged.ply"
+    )
     return dataset
 
 
