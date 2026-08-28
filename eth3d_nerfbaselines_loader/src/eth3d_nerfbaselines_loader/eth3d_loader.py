@@ -24,6 +24,9 @@ def load_eth3d_dataset(
     dataset["metadata"]["dense_points3D_path"] = str(
         Path(path).absolute() / "scan_merged.ply"
     )
+    dataset["metadata"]["eth3d_meshlab_project_path"] = str(
+        Path(path).absolute() / "scan_clean" / "scan_alignment.mlp"
+    )
     return dataset
 
 
